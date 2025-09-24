@@ -5,6 +5,8 @@ on:
         types:
             - opened
             - reopened
+permissions:
+    issues: write
 
 jobs:
     aCatForCreatingThePullRequest:
@@ -12,5 +14,5 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: ruairidhwm/action-cats@1.0.1
-              # with:
-              #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              with:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
