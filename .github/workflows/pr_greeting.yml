@@ -9,7 +9,7 @@ on:
 # Permissions
 permissions:
     issues: write
-
+#
 jobs:
     aCatForCreatingThePullRequest:
         name: A cat for your effort!
