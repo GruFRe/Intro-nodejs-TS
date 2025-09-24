@@ -5,6 +5,8 @@ on:
         types:
             - opened
             - reopened
+permissions:
+    issues: write
 
 jobs:
     aCatForCreatingThePullRequest:
